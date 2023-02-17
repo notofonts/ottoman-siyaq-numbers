@@ -45,7 +45,7 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = description;
@@ -7162,13 +7162,7 @@ master01 = 1;
 name = Regular;
 }
 );
-kerning = {
-master01 = {
-u1ED0E = {
-};
-};
-};
-manufacturerURL = "http://www.google.com/get/noto/";
+manufacturerURL = "https://www.google.com/get/noto/";
 unitsPerEm = 1000;
 userData = {
 GSDontShowVersionAlert = 1;

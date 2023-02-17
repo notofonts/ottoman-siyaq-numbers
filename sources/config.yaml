@@ -2,3 +2,6 @@ googleFonts: true
 sources:
 - NotoSerifOttomanSiyaq.glyphs
 familyName: Noto Serif Ottoman Siyaq
+includeSubsets:
+- from: Noto Sans
+  name: GF_Latin_Core
