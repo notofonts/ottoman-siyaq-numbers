@@ -1,4 +1,6 @@
 googleFonts: true
+category:
+- SERIF
 sources:
 - NotoSerifOttomanSiyaq.glyphs
 familyName: Noto Serif Ottoman Siyaq

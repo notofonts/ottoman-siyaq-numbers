@@ -59,7 +59,7 @@ value = "Version 1.005";
 date = "2021-06-02 21:08:18 +0000";
 designer = "Sérgio Martins";
 disablesNiceNames = 1;
-familyName = "Noto Ottoman Siyaq";
+familyName = "Noto Serif Ottoman Siyaq";
 featurePrefixes = (
 {
 automatic = 1;
