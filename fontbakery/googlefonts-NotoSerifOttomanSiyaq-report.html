@@ -73,24 +73,24 @@
             </tr>
             <tr>
                 <td>0</td>
-                <td>4</td>
+                <td>1</td>
+                <td>9</td>
+                <td>117</td>
                 <td>7</td>
-                <td>125</td>
-                <td>8</td>
-                <td>96</td>
+                <td>106</td>
             </tr>
             <tr>
                 <td>0%</td>
-                <td>2%</td>
-                <td>4%</td>
-                <td>71%</td>
+                <td>1%</td>
                 <td>5%</td>
-                <td>55%</td>
+                <td>70%</td>
+                <td>4%</td>
+                <td>63%</td>
             </tr>
             </table>
             
 <p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
-<h2>&lt;Section: Google Fonts&gt; 🔥🔥⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h2>&lt;Section: Google Fonts&gt; 🔥⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
 <h3>Check copyright namerecords match license file.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/license&gt;</div>
 
@@ -104,14 +104,20 @@
 <details><summary>⚠️ <strong>fonts/NotoSerifOttomanSiyaq/googlefonts/ttf/NotoOttomanSiyaq-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
 </span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
 </span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]</p>
 </span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
 [code: http]</p>
 </span></li></ul></div></details>
 <h3>Are there caret positions declared for every ligature?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/ligature_carets&gt;</div>
 
-<details><summary>⚠️ <strong>fonts/NotoSerifOttomanSiyaq/googlefonts/ttf/NotoOttomanSiyaq-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]</p>
+<details><summary>⚠️ <strong>fonts/NotoSerifOttomanSiyaq/googlefonts/ttf/NotoOttomanSiyaq-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]</p>
+</span></li></ul></div></details>
+<h3>Is there kerning info for non-ligated sequences?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/kerning_for_non_ligated_sequences&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSerifOttomanSiyaq/googlefonts/ttf/NotoOttomanSiyaq-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- u1ED39 + u1ED2E [code: lacks-kern-info]
+</code></pre>
 </span></li></ul></div></details>
 <h3>Check font follows the Google Fonts vertical metric schema</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/vertical_metrics&gt;</div>
@@ -123,90 +129,40 @@
 
 <details><summary>⚠️ <strong>fonts/NotoSerifOttomanSiyaq/googlefonts/ttf/NotoOttomanSiyaq-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
-<h3>Check font can render its own name.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/render_own_name&gt;</div>
-
-<details><summary>🔥 <strong>fonts/NotoSerifOttomanSiyaq/googlefonts/ttf/NotoOttomanSiyaq-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Ottoman Siyaq [code: render-own-name]</p>
-</span></li></ul></div></details>
 <h3>Noto fonts must have an ARTICLE.en_us.html file</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/description/noto_has_article&gt;</div>
 
 <details><summary>🔥 <strong>fonts/NotoSerifOttomanSiyaq/googlefonts/ttf/NotoOttomanSiyaq-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Universal&gt; 🔥⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
-<h3>Font contains glyphs for whitespace characters?</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/whitespace_glyphs&gt;</div>
+<h2>&lt;Section: Universal&gt; ⚠️⚠️⚠️⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h3>Check if each glyph has the recommended amount of contours.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/contour_count&gt;</div>
 
-<details><summary>🔥 <strong>fonts/NotoSerifOttomanSiyaq/googlefonts/ttf/NotoOttomanSiyaq-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Whitespace glyph missing for codepoint 0x0020. [code: missing-whitespace-glyph-0x0020]</p>
-</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]</p>
-</span></li></ul></div></details>
-<h2>&lt;Section: fontbakery.profiles.gpos&gt; ⚠️</h2>
-<h3>Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gpos_kerning_info&gt;</div>
+<details><summary>⚠️ <strong>fonts/NotoSerifOttomanSiyaq/googlefonts/ttf/NotoOttomanSiyaq-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-<details><summary>⚠️ <strong>fonts/NotoSerifOttomanSiyaq/googlefonts/ttf/NotoOttomanSiyaq-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
-</span></li></ul></div></details>
-<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️</h2>
-<h3>Are there any misaligned on-curve points?</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-<details><summary>⚠️ <strong>fonts/NotoSerifOttomanSiyaq/googlefonts/ttf/NotoOttomanSiyaq-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* u1ED08 (U+1ED08): X=348.0,Y=2.0 (should be at baseline 0?)
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-* u1ED08 (U+1ED08): X=348.0,Y=2.0 (should be at cap-height 0?)
-
-* u1ED14 (U+1ED14): X=232.0,Y=1.5 (should be at baseline 0?)
-
-* u1ED14 (U+1ED14): X=232.0,Y=1.5 (should be at cap-height 0?)
-
-* u1ED16 (U+1ED16): X=628.5,Y=0.5 (should be at baseline 0?)
-
-* u1ED16 (U+1ED16): X=628.5,Y=0.5 (should be at cap-height 0?)
-
-* u1ED1B (U+1ED1B): X=599.0,Y=1.5 (should be at baseline 0?)
-
-* u1ED1B (U+1ED1B): X=599.0,Y=1.5 (should be at cap-height 0?)
-
-* u1ED1D (U+1ED1D): X=586.0,Y=0.5 (should be at baseline 0?)
-
-* u1ED1D (U+1ED1D): X=586.0,Y=0.5 (should be at cap-height 0?) 
-
-* 6 more.
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
 </code></pre>
-<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+<p>[code: contour-count]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Shaping Checks&gt; 🔥⏩⏩</h2>
-<h3>Check that texts shape as per expectation</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/shaping/regression&gt;</div>
+<h3>Ensure dotted circle glyph is present and can attach marks.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/dotted_circle&gt;</div>
 
-<details><summary>🔥 <strong>fonts/NotoSerifOttomanSiyaq/googlefonts/ttf/NotoOttomanSiyaq-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>qa/shaping_tests/example.json: Expected and actual shaping not matching</p>
-<div class="shaping">
-<style type="text/css">
-    @font-face {font-family: "TestFont"; src: url(../../fonts/NotoSerifOttomanSiyaq/googlefonts/ttf/NotoOttomanSiyaq-Regular.ttf);}
-    .tf { font-family: "TestFont"; }
-    .shaping pre { font-size: 1.2rem; }
-    .shaping li {
-        font-size: 1.2rem;
-        border-top: 1px solid #ddd;
-        padding: 12px;
-        margin-top: 12px;
-    }
-    .shaping-svg {
-        height: 100px;
-        margin: 10px;
-        transform: matrix(1, 0, 0, -1, 0, 0);
-    }
-</style>
-<h4>qa/shaping_tests/example.json: Expected and actual shaping not matching</h4>
-</div>
-<div class="shaping">
-<li>Shaping did not match: <span class="tf">๰</span></li>
-<pre>Expected: None</pre>
-<pre>Got     : .notdef=0+500</pre>
-<p>Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 2703" transform="matrix(1 0 0 -1 0 0)">
-<path d="M50.0,-634.0L50.0,1069.0L450.0,1069.0L450.0,-634.0L50.0,-634.0ZM100.0,-584.0L400.0,-584.0L400.0,1019.0L100.0,1019.0L100.0,-584.0Z"  transform="translate(0, 1134)"/>
-</svg></p>
-</div> [code: shaping-regression]
+<details><summary>⚠️ <strong>fonts/NotoSerifOttomanSiyaq/googlefonts/ttf/NotoOttomanSiyaq-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+</span></li></ul></div></details>
+<h3>Check math signs have the same width.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/math_signs_width&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSerifOttomanSiyaq/googlefonts/ttf/NotoOttomanSiyaq-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The most common width is 572 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:</p>
+<p>Width = 322:
+minus
+[code: width-outliers]</p>
 </span></li></ul></div></details>
                     </body>
                 </html>
