@@ -1,4 +1,5 @@
 googleFonts: true
+buildVariable: false
 category:
 - SERIF
 sources:
