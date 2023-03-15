@@ -8,3 +8,7 @@
 #
 # Names should be added to this file as:
 # Name <email address>
+
+# Initial design and production, versions <= v1.005
+Sérgio Martins <d.sergiomartins@gmail.com> 
+
