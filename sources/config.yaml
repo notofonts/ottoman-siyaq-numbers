@@ -6,5 +6,5 @@ sources:
 - NotoSerifOttomanSiyaq.glyphs
 familyName: Noto Serif Ottoman Siyaq
 includeSubsets:
-- from: Noto Sans
+- from: Noto Serif
   name: GF_Latin_Core
