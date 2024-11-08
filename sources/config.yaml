@@ -1,10 +1,11 @@
-googleFonts: true
 buildVariable: false
 category:
 - SERIF
-sources:
-- NotoSerifOttomanSiyaq.glyphs
 familyName: Noto Serif Ottoman Siyaq
+googleFonts: true
 includeSubsets:
 - from: Noto Serif
   name: GF_Latin_Core
+recipeProvider: noto
+sources:
+- NotoSerifOttomanSiyaq.glyphs
